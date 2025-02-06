@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scripts": {
+    "build": "vite build",
+    "preview": "vite preview" 
+    }
   },
   "dependencies": {
     "react": "^19.0.0",
